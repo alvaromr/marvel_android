@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Marvel Characters</string>
+    <string name="view_detail">Ver más</string>
+    <string name="no_description_available">No hay descripcion disponible</string>
+    <string name="generic_error">Ha ocurrido un error</string>
+    <string name="not_found">No hay datos para mostrar</string>
+    <string name="modified_on">Modificado</string>
+    <string name="updated_on">Actualizado</string>
+    <!--    <string name="api_key" translatable="false">2a46204d9ec08124292ee561b699151d</string>-->
+</resources>
