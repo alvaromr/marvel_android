@@ -6,6 +6,8 @@ This is a simple project to play a bit with some new concepts on Android.
 
 It uses [Marvel's API](https://developer.marvel.com/docs) to fetch and display famous characters.
 
+![Image](https://github.com/alvaromr/marvel_android/blob/master/app/app.gif)
+
 ## Main Features
 
 + Kotlin
