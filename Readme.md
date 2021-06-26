@@ -35,4 +35,8 @@ KEYSTORE_STORE_PASSWORD=YOUR_KEYSTORE_STORE_PASSWORD
 Data provided by Marvel. © 2021 Marvel
 
 
+## Download aab
+
+[latest version](https://github.com/alvaromr/marvel_android/blob/master/app/release/app-release.aab)
+
 
