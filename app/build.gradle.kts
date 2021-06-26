@@ -93,6 +93,10 @@ dependencies {
 
     implementation("com.google.accompanist:accompanist-coil:0.12.0")
 
+    implementation("androidx.room:room-runtime:${rootProject.extra["roomVersion"]}")
+    kapt("androidx.room:room-compiler:${rootProject.extra["roomVersion"]}")
+    implementation("androidx.room:room-ktx:${rootProject.extra["roomVersion"]}")
+
     testImplementation("junit:junit:4.13.2")
     androidTestImplementation("androidx.test.ext:junit:1.1.2")
     androidTestImplementation("androidx.test.espresso:espresso-core:3.3.0")

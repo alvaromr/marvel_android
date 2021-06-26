@@ -9,6 +9,7 @@ It uses [Marvel's API](https://developer.marvel.com/docs) to fetch and display f
 ## Main Features
 
 + Kotlin
++ Coroutines & Flow
 + MVI
 + Single Activity
 + Hilt
@@ -16,6 +17,7 @@ It uses [Marvel's API](https://developer.marvel.com/docs) to fetch and display f
 + Jetpack Compose 
 + Jetpack Navigation
 + Accompanist Coil
++ Room
 
 ## How to Build this project
 

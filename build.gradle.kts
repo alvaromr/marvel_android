@@ -6,6 +6,7 @@ buildscript {
     val hiltVersion by extra("1.0.0")
     val hiltComposeNavigation by extra("1.0.0-alpha02")
     val ktorVersion by extra("1.6.0")
+    val roomVersion by extra("2.3.0")
 
     repositories {
         google()
