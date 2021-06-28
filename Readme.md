@@ -16,15 +16,17 @@ It uses [Marvel's API](https://developer.marvel.com/docs) to fetch and display f
 + Single Activity
 + Hilt
 + Ktor
-+ Jetpack Compose 
++ Jetpack Compose
 + Jetpack Navigation
 + Accompanist Coil
 + Room
++ Mockito
 
 ## How to Build this project
 
 + You need to use Android Studio Arctic Fox (2020.3.1) Beta 4 (or newer)
-+ You need to create a file named `app.properties` in project's root folder and set up the following keys:
++ You need to create a file named `app.properties` in project's root folder and set up the following
+  keys:
 
 ```
 API_KEY="YOUR_OWN_MARVEL_API_KEY"
@@ -32,13 +34,10 @@ KEYSTORE_KEY_PASSWORD=YOUR_KEYSTORE_KEY_PASSWORD
 KEYSTORE_STORE_PASSWORD=YOUR_KEYSTORE_STORE_PASSWORD
 ```
 
+## Download
+
+[latest version](https://github.com/alvaromr/marvel_android/blob/master/app/release/app-release.apk)
+
 ## Attribution
 
 Data provided by Marvel. © 2021 Marvel
-
-
-## Download aab
-
-[latest version](https://github.com/alvaromr/marvel_android/blob/master/app/release/app-release.aab)
-
-

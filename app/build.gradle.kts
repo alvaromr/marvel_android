@@ -101,6 +101,8 @@ dependencies {
     androidTestImplementation("androidx.test.ext:junit:1.1.2")
     androidTestImplementation("androidx.test.espresso:espresso-core:3.3.0")
     androidTestImplementation("androidx.compose.ui:ui-test-junit4:${rootProject.extra["composeVersion"]}")
+    testImplementation("org.jetbrains.kotlinx:kotlinx-coroutines-test:1.5.0")
+    testImplementation("org.mockito.kotlin:mockito-kotlin:3.2.0")
 
     debugImplementation("com.facebook.soloader:soloader:0.10.1")
     debugImplementation("com.facebook.flipper:flipper-network-plugin:0.95.0")
