@@ -12,15 +12,11 @@ import javax.inject.Named
 class AppModule {
     @Provides
     @Named(API_KEY)
-    fun provideApiKey(): String {
-        return BuildConfig.API_KEY
-    }
+    fun provideApiKey() = BuildConfig.API_KEY
 
     @Provides
     @Named(BASE_URL)
-    fun provideBaseUrl(): String {
-        return BuildConfig.BASE_URL
-    }
+    fun provideBaseUrl() = BuildConfig.BASE_URL
 
     companion object {
         const val API_KEY = "API_KEY"
